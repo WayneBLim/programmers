@@ -1,6 +1,7 @@
 def solution(n):
-
-    answer = []
-    for i in reversed(str(n)):
-        answer.append(int(i))
-    return answer
+    # 함수를 완성해 주세요
+    a=[]
+    for i in str(n):
+        a.append(int(i))
+    a.reverse()
+    return a
