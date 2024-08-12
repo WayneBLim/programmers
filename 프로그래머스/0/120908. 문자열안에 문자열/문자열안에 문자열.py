@@ -1,0 +1,1 @@
+solution = lambda a,b : 1 if b in a else 2
